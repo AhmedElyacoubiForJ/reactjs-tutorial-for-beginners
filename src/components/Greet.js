@@ -1,5 +1,9 @@
 import React from 'react'
 
+// Functional component are Simple functions that return declaration
+// Use it as much as possible. Is a solution without using state.
+// And mainly responsible for the UI
+// Called as Stateless / Dumb / Presentational
 // function Greet() {
 //     return <h1>Hello Developer</h1>
 // }
