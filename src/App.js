@@ -6,11 +6,12 @@ import GreetWithoutJSX from './components/GreetWithoutJSX';
 import GreetWithProps from './components/GreetWithProps';
 import WelcomeWithProps from './components/WelcomeWithProps';
 import CMessage from './components/CMessage';
+import CCounter from './components/set-state-example/CCounter';
 
 function App() {
   return (
     <div className="App">
-      <CMessage />
+      <CCounter />
 
 
       {/* <Greet />
@@ -27,7 +28,9 @@ function App() {
       </GreetWithProps>
 
       <WelcomeWithProps profession="Software developer" abbreviation="Dipl. Ing."/>
-      <WelcomeWithProps profession="Software architect" abbreviation="Dr."/> */}
+      <WelcomeWithProps profession="Software architect" abbreviation="Dr."/> 
+      
+      <CMessage /> */}
     </div>
   );
 }
