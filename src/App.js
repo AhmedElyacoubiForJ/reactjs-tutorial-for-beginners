@@ -8,12 +8,12 @@ import WelcomeWithProps from './components/WelcomeWithProps';
 import CMessage from './components/CMessage';
 import CCounter from './components/set-state-example/CCounter';
 import CCounterFiveTime from './components/set-state-example/CCounterFiveTime';
+import GreetPropsDestructed from './components/destructing-props-and-state/GreetPropsDestructed';
 
 function App() {
   return (
     <div className="App">
-      <CCounterFiveTime />
-
+      <GreetPropsDestructed name="Name" heroName="hero name" />
 
       {/*
       <Greet />
@@ -35,6 +35,7 @@ function App() {
       <CMessage />
       
       <CCounter />
+      <CCounterFiveTime />
       */}
     </div>
   );
