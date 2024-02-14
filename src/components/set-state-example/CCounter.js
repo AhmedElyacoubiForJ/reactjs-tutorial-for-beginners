@@ -25,6 +25,7 @@ class CCounter extends Component {
     // solved w. callback function as seconded parameter in setState function
   }
 
+
   render() {
     return (
       <div>
