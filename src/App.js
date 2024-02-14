@@ -4,6 +4,7 @@ import Welcome from './components/Welcome'
 import JSXGreet from './components/JSXGreet';
 import GreetWithoutJSX from './components/GreetWithoutJSX';
 import GreetWithProps from './components/GreetWithProps';
+import WelcomeWithProps from './components/WelcomeWithProps';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       <GreetWithProps profession="Software architect" abbreviation="Dr.">
         <button>Action</button>
       </GreetWithProps>
+
+      <WelcomeWithProps profession="Software developer" abbreviation="Dipl. Ing."/>
+      <WelcomeWithProps profession="Software architect" abbreviation="Dr."/>
     </div>
   );
 }
