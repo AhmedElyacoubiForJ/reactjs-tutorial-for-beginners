@@ -12,11 +12,12 @@ import GreetPropsDestructed from './components/destructing-props-and-state/Greet
 import CWelcomePropsDestructed from './components/destructing-props-and-state/CWelcomePropsDestructed';
 import ComponentFunctionClick from './components/event-handling/ComponentFunctionClick';
 import ClassComponentClick from './components/event-handling/ClassComponentClick';
+import ClassComponentEventBind from './components/event-handling/ClassComponentEventBind';
 
 function App() {
   return (
     <div className="App">
-      <ClassComponentClick />
+      <ClassComponentEventBind />
       
       {/*
       <Greet />
@@ -44,6 +45,9 @@ function App() {
       <CWelcomePropsDestructed abbreviation="Dipl. Ing." profession="Softeware Entwickler"/>
       
       <ComponentFunctionClick />
+      <ClassComponentClick />
+
+
       */}
     </div>
   );
