@@ -10,12 +10,13 @@ import CCounter from './components/set-state-example/CCounter';
 import CCounterFiveTime from './components/set-state-example/CCounterFiveTime';
 import GreetPropsDestructed from './components/destructing-props-and-state/GreetPropsDestructed';
 import CWelcomePropsDestructed from './components/destructing-props-and-state/CWelcomePropsDestructed';
+import ComponentFunctionClick from './components/event-handling/ComponentFunctionClick';
 
 function App() {
   return (
     <div className="App">
-      <CWelcomePropsDestructed abbreviation="Dipl. Ing." profession="Softeware Entwickler"/>
-
+      <ComponentFunctionClick />
+      
       {/*
       <Greet />
       <Welcome />
@@ -39,6 +40,7 @@ function App() {
       <CCounterFiveTime />
 
       <GreetPropsDestructed name="Name" heroName="hero name" />
+      <CWelcomePropsDestructed abbreviation="Dipl. Ing." profession="Softeware Entwickler"/>
       */}
     </div>
   );
