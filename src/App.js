@@ -13,12 +13,13 @@ import CWelcomePropsDestructed from './components/destructing-props-and-state/CW
 import ComponentFunctionClick from './components/event-handling/ComponentFunctionClick';
 import ClassComponentClick from './components/event-handling/ClassComponentClick';
 import ClassComponentEventBind from './components/event-handling/ClassComponentEventBind';
+import ParentComponent from './components/methods-as-props/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <ClassComponentEventBind />
-      
+      <ParentComponent />
+
       {/*
       <Greet />
       <Welcome />
@@ -47,7 +48,7 @@ function App() {
       <ComponentFunctionClick />
       <ClassComponentClick />
 
-
+      <ClassComponentEventBind />
       */}
     </div>
   );
