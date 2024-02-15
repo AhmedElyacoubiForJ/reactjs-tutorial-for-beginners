@@ -15,12 +15,12 @@ import ClassComponentClick from './components/event-handling/ClassComponentClick
 import ClassComponentEventBind from './components/event-handling/ClassComponentEventBind';
 import ParentComponent from './components/methods-as-props/ParentComponent';
 import UserGreeting from './components/conditional-rendering.js/UserGreeting';
+import NameList from './components/list-rendering/NameList';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
-
+      <NameList />
       {/*
       <Greet />
       <Welcome />
@@ -52,6 +52,8 @@ function App() {
       <ClassComponentEventBind />
 
       <ParentComponent />
+
+      <UserGreeting />
       */}
     </div>
   );
