@@ -1,0 +1,6 @@
+When to use index as a key?
+1. The items in the list do not have a unique id.
+2. The list is a static list and will be not change.
+3. The list will never be ordered or filtered.
+
+https://codepen.io/gopinav/pen/gQpepq
