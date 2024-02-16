@@ -18,10 +18,13 @@ import UserGreeting from './components/conditional-rendering.js/UserGreeting';
 import NameList from './components/list-rendering/NameList';
 import NameListIndexAsKey from './components/list-rendering/NameListIndexAsKey';
 import CSSStylesheets from './components/styling-react-component/CSSStylesheets';
+import InlineStyling from './components/styling-react-component/InlineStyling';
 
 function App() {
   return (
     <div className="App">
+      <InlineStyling />
+
       <CSSStylesheets primary={true}/>
       
       {/*
