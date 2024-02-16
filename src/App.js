@@ -17,11 +17,13 @@ import ParentComponent from './components/methods-as-props/ParentComponent';
 import UserGreeting from './components/conditional-rendering.js/UserGreeting';
 import NameList from './components/list-rendering/NameList';
 import NameListIndexAsKey from './components/list-rendering/NameListIndexAsKey';
+import CSSStylesheets from './components/styling-react-component/CSSStylesheets';
 
 function App() {
   return (
     <div className="App">
-      <NameListIndexAsKey />
+      <CSSStylesheets primary={true}/>
+      
       {/*
       <Greet />
       <Welcome />
@@ -57,6 +59,7 @@ function App() {
       <UserGreeting />
 
       <NameList />
+      <NameListIndexAsKey />
       */}
     </div>
   );

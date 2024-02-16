@@ -1,0 +1,7 @@
+Styling React Component
+1. CSS stylesheets
+2. Inline styling
+3. CSS Modules
+4. CSS in JS Libaries (Styled Components is recomended for real projects)
+
+we will handel only 1..3
