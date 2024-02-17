@@ -25,6 +25,8 @@ import styles from './components/styling-react-component/ccs-modules-example/app
 function App() {
   return (
     <div className="App">
+      <InlineStyling />
+      {/*  */}
       {/* <InlineStyling />
       <CSSStylesheets primary={true}/> */}
       
