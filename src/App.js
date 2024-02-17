@@ -26,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <InlineStyling />
+      <CSSStylesheets primary={true}/>
       {/*  */}
       {/* <InlineStyling />
       <CSSStylesheets primary={true}/> */}
