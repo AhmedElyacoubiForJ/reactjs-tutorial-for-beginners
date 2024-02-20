@@ -19,14 +19,16 @@ import NameList from './components/list-rendering/NameList';
 import NameListIndexAsKey from './components/list-rendering/NameListIndexAsKey';
 import CSSStylesheets from './components/styling-react-component/CSSStylesheets';
 import InlineStyling from './components/styling-react-component/InlineStyling';
-import './components/styling-react-component/ccs-modules-example/appStyles.module.css'
+import './components/styling-react-component/ccs-modules-example/appStyles.css';
 import styles from './components/styling-react-component/ccs-modules-example/appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>success</h1>
       <InlineStyling />
-      <CSSStylesheets primary={true}/>
+      
       {/*  */}
       {/* <InlineStyling />
       <CSSStylesheets primary={true}/> */}
