@@ -21,13 +21,12 @@ import CSSStylesheets from './components/styling-react-component/CSSStylesheets'
 import InlineStyling from './components/styling-react-component/InlineStyling';
 import './components/styling-react-component/ccs-modules-example/appStyles.css';
 import styles from './components/styling-react-component/ccs-modules-example/appStyles.module.css'
+import Form from './components/basics-of-form-handling/Form';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>success</h1>
-      <InlineStyling />
+      <Form />
       
       {/*  */}
       {/* <InlineStyling />
@@ -69,6 +68,10 @@ function App() {
 
       <NameList />
       <NameListIndexAsKey />
+
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>success</h1>
+      <InlineStyling />
       */}
     </div>
   );
