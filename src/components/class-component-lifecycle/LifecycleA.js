@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LifecycleB from './LifecycleB'
 
 // rce
 class LifecycleA extends Component {
@@ -24,7 +25,12 @@ class LifecycleA extends Component {
 
     render() {
         console.log('LifecycleA render method call')
-        return <div>LifecycleA</div>
+        return (
+            <div>
+                <div>Lifecycle A</div>
+                <LifecycleB />
+            </div>
+        )
     }
 }
 
