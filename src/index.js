@@ -5,7 +5,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // disable 2 times calls
+  // disable methods 2 times calls
   //<React.StrictMode>
     <App />
   //</React.StrictMode>
