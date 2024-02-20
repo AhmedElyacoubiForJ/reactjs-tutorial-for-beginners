@@ -13,7 +13,7 @@ class Form extends Component {
         }
     }
     // handler method as a class property
-    // and is will to be equal to the arrow function
+    // and it will be equal to arrow function
     handleUsernameChange = (event) => {
         this.setState(
             {
