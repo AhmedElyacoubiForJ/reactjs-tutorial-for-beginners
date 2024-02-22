@@ -1,0 +1,7 @@
+/* is a part of react dev Quick Start */
+.avatar {
+    /* border-radius: 50%; */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}

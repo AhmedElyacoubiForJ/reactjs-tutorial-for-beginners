@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './profile.module.css'
 
 function Profile() {
     const user = {
@@ -11,7 +12,7 @@ function Profile() {
         <>
             <h1>{user.name}</h1>
             <img
-                className="avatar"
+                className={styles.avatar}
                 src={user.imageUrl}
                 alt={'Photo of ' + user.name}
                 style={{  // is a regular {} object inside the style={ } JSX curly braces

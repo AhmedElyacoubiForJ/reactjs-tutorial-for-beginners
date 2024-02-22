@@ -7,10 +7,11 @@ export default function QuickStart() {
     return (
         <div>
             <h1>QuickStart react official site</h1>
-            <MyButtonTest />
-            <AboutPage />
+            {/* <MyButtonTest />
+            <AboutPage /> */}
+            
             <Profile />
-            <ShoppingList />
+            {/* <ShoppingList /> */}
         </div>
     )
 }
