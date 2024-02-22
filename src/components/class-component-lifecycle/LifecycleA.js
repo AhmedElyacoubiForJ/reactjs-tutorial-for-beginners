@@ -22,7 +22,7 @@ class LifecycleA extends Component {
     componentDidMount() {
         console.log('LifecycleA componentDidMount method call')
     }
-
+    
     render() {
         console.log('LifecycleA render method call')
         return (
