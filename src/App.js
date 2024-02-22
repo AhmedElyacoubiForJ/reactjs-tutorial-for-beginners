@@ -23,12 +23,13 @@ import './components/styling-react-component/ccs-modules-example/appStyles.css';
 import styles from './components/styling-react-component/ccs-modules-example/appStyles.module.css'
 import Form from './components/basics-of-form-handling/Form';
 import LifecycleA from './components/class-component-lifecycle/LifecycleA';
-
+import FragmentDemo from './components/fragments/FragmentDemo';
+import Table from './components/fragments/Table';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <Table />
       
       {/*
       <Greet />
@@ -72,6 +73,11 @@ function App() {
       <InlineStyling />
 
       <Form />
+
+      <LifecycleA />
+
+      <FragmentDemo />
+      <Table />
       */}
     </div>
   );
