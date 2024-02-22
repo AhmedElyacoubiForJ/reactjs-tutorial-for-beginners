@@ -25,12 +25,21 @@ import Form from './components/basics-of-form-handling/Form';
 import LifecycleA from './components/class-component-lifecycle/LifecycleA';
 import FragmentDemo from './components/fragments/FragmentDemo';
 import Table from './components/fragments/Table';
+import ParentComponentDemo from './components/pure-component/ParentComponentDemo';
+import MyPureComponent from './components/pure-component/MyPureComponent';
+import QuickStart from './components/react-dev-learn/QuickStart';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <QuickStart />
+
       
+      {/* <MyPureComponent /> */}
+      {/* <ParentComponentDemo /> */}
+
       {/*
       <Greet />
       <Welcome />

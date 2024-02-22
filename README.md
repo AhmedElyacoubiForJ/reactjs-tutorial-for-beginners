@@ -1,3 +1,26 @@
+## Tutorial URL
+
+[ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+
+## React dev learn
+
+[From React Official site](https://react.dev/learn)
+
+## Update Node.js with Chocolatey
+
+[How to Update Node.js on Windows](https://phoenixnap.com/kb/update-node-js-version#ftoc-heading-11)
+
+#  Open the Command Prompt or PowerShell as Administrator to ensure you have the necessary permissions.
+# Before updating Node.js, run the following command to ensure that Chocolatey itself is up-to-date:
+### `choco upgrade chocolatey`
+# Once Chocolatey is updated, search for Node.js packages by running:
+### `choco find nodejs.install`
+# Upgrade to the latest program version using the syntax below:
+### `choco upgrade nodejs.install X.X.X`
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,8 +91,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-## Tutorial URL
-
-[ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
