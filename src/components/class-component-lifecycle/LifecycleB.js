@@ -22,6 +22,23 @@ class LifecycleB extends Component {
         console.log('LifecycleB componentDidMount method call')
     }
 
+     // scu
+     shouldComponentUpdate(nextProps, nextState) {
+        console.log('LifecycleB shouldComponentUpdate method call')
+        return true
+    }
+
+    // gsb
+    getSnapshotBeforeUpdate = (prevProps, prevState) => {
+        console.log('LifecycleB getSnapshotBeforeUpdate method call')
+        return null
+    }
+
+    // cdu
+    componentDidUpdate(prevProps, prevState) {
+        console.log('LifecycleB componentDidUpdate method call')
+    }
+
     render() {
         console.log('LifecycleB render method call')
         return <div>Lifecycle B</div>
