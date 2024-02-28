@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component, PureComponent } from 'react'
 import RegularComponent from './RegularComponent';
 import MyPureComponent from './MyPureComponent';
 
 // rce
-class ParentComponentDemo extends Component {
+// no props value changed component will only 1 time rerendered sc comparison
+class ParentComponentDemo extends PureComponent {
+// also if no changes component will rendered each 2 s
+//class ParentComponentDemo extends Component {
     // rconst
     constructor(props) {
         super(props)

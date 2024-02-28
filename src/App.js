@@ -34,11 +34,7 @@ import QuickStart from './components/react-dev-learn/QuickStart';
 function App() {
   return (
     <div className="App">
-      <QuickStart />
-
-      
-      {/* <MyPureComponent /> */}
-      {/* <ParentComponentDemo /> */}
+      <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
 
       {/*
       <Greet />
@@ -87,6 +83,14 @@ function App() {
 
       <FragmentDemo />
       <Table />
+
+      <MyPureComponent />
+      <ParentComponentDemo />
+      */}
+
+      {/* React Dev Learn */}
+      {/*        
+      <QuickStart />
       */}
     </div>
   );
