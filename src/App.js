@@ -28,6 +28,7 @@ import Table from './components/fragments/Table';
 import ParentComponentDemo from './components/pure-component/ParentComponentDemo';
 import MyPureComponent from './components/pure-component/MyPureComponent';
 import QuickStart from './components/react-dev-learn/QuickStart';
+import ParentMemoComponentDemo from './components/memo/ParentMemoComponentDemo';
 
 
 
@@ -35,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
-
+      <ParentMemoComponentDemo />
       {/*
       <Greet />
       <Welcome />
