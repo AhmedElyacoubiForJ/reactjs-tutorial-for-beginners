@@ -29,14 +29,15 @@ import ParentComponentDemo from './components/pure-component/ParentComponentDemo
 import MyPureComponent from './components/pure-component/MyPureComponent';
 import QuickStart from './components/react-dev-learn/QuickStart';
 import ParentMemoComponentDemo from './components/memo/ParentMemoComponentDemo';
-
+import RefsDemo from './components/refs-concept/RefsDemo';
 
 
 function App() {
   return (
     <div className="App">
       <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
-      <ParentMemoComponentDemo />
+      <RefsDemo />
+
       {/*
       <Greet />
       <Welcome />
@@ -87,6 +88,8 @@ function App() {
 
       <MyPureComponent />
       <ParentComponentDemo />
+
+      <ParentMemoComponentDemo />
       */}
 
       {/* React Dev Learn */}
