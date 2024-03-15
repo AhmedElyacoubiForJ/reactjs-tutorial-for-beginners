@@ -31,12 +31,13 @@ import QuickStart from './components/react-dev-learn/QuickStart';
 import ParentMemoComponentDemo from './components/memo/ParentMemoComponentDemo';
 import RefsDemo from './components/refs-concept/on-normal-elements/RefsDemo';
 import CounterOne from './components/useReducer-Hook/CounterOne';
+import CounterTwo from './components/useReducer-complex-state-&-action/CounterTwo';
 
 
 function App() {
   return (
     <div className="App">
-      <CounterOne />
+      <CounterTwo />
 
       {/*
       <Greet />
@@ -92,6 +93,9 @@ function App() {
       <ParentMemoComponentDemo />
 
       <RefsDemo />
+
+      //  useReducer 
+      <CounterOne />
       */}
 
       {/* React Dev Learn */}
