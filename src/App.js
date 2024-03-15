@@ -30,11 +30,13 @@ import MyPureComponent from './components/pure-component/MyPureComponent';
 import QuickStart from './components/react-dev-learn/QuickStart';
 import ParentMemoComponentDemo from './components/memo/ParentMemoComponentDemo';
 import RefsDemo from './components/refs-concept/on-normal-elements/RefsDemo';
+import CounterOne from './components/useReducer-Hook/CounterOne';
 
 
 function App() {
   return (
     <div className="App">
+      <CounterOne />
 
       {/*
       <Greet />
